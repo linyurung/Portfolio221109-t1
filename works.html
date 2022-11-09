@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	  <style type="text/css">
+	  .carousel-item {
+		  height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+      .nav-link {
+    color: #FFFFFF !important;
+}
+		  .nav-link:hover {
+    color: #B9E0F7 !important;
+}
+      .dropdown-item:hover {
+    background-color: #C4E1F7 !important;
+}
+      .jumbotron1 {
+    background-color: #3A6085;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100vh;
+    padding-top: 20px;
+}
+      .card-title {
+    color: #0040B4;
+}
+      .card-text {
+    color: #2A7FB5;
+}
+      .ps {
+    color: #FFFFFF;
+    background-color: #5E6974;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-bottom: -5px;
+}
+      .blue {
+    border: none;
+    background-color: #082492;
+}
+      .card.col-md-2.offset-lg-1 .row.no-gutters .card.col-md-1.col-lg-4 {
+    background-color: #E3CB42;
+}
+      .red {
+    background-color: #9A2E2D;
+}
+      .row.no-gutters .4season .d-block.mx-auto {
+    width: 61.2px;
+    height: 79.2px;
+}
+      .carousel-item.active.offset-lg-1.col-lg-11 .carousel-caption .col-lg-4.offset-lg-8 {
+    text-align: right;
+}
+      .blbg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #3A6085;
+}
+      .blbg .col-lg-5.offset-lg-1 strong {
+    color: #D2E2F2;
+}
+      .blbg .col-lg-5.offset-lg-6 {
+    color: #D2E2F2;
+    text-align: right;
+}
+      .blbg .col-lg-5.offset-lg-1 {
+    color: #D2E2F2;
+}
+      .jumbotron2 {
+    background-color: #3A6085;
+}
+      li h5 a {
+    color: #FFFFFF;
+}
+	li h5 a:hover{
+    color: #BBD8EB;
+	text-decoration: none;
+}
+      ul li h5 {
+    color: #FFFFFF;
+}
+      .jumbotron2 .display-4 strong {
+    color: #D1E1EA;
+}
+      .jumbotron2 .lead {
+    color: #D1E1EA;
+}
+      .jumbotron1 .display-4 strong {
+    color: #D1E1EA;
+}
+      .jumbotron2 .RPG {
+    color: #FFFFFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+}
+      .jumbotron2 h3 strong {
+    color: #B4CCDA;
+}
+      .blueword h3 strong {
+    color: #2A4661;
+}
+      .esword.row.no-gutters .offset-lg-0.col-lg-5 {
+    padding-left: 50px;
+    padding-right: 20px;
+    letter-spacing: 6px;
+    color: #85A6C7;
+}
+      .eswww h3 strong {
+    color: #184586;
+}
+      .eswww2 {
+    color: #FFFFFF;
+    background-color: #CDCDCD;
+    padding-left: 30px;
+}
+      .container-fluid .navbar.fixed-top.navbar-expand-lg.navbar-dark.bg-dark .navbar-brand {
+}
+      footer {
+    background-color: #343A40;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+      </style>
+	      
+  </head>
+  	<body>
+    <div class="container-fluid" style="padding-left: 0px; padding-right: 0px">
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="padding-left: 50px;padding-right: 50px"> <a class="navbar-brand" href="#a06"><i class="bi bi-chat-square-heart" href="#a06"></i>&nbsp;&nbsp;林郁容</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	      <ul class="navbar-nav ml-auto">
+	        
+	        <li class="nav-item"> <a class="nav-link" href="#a01">PS</a> </li>
+			  <li class="nav-item"> <a class="nav-link" href="#a02">AI</a> </li>
+			  <li class="nav-item"> <a class="nav-link" href="#a03">Blender</a> </li>
+	        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> RPG Maker MZ </a>
+	          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+				  <a class="dropdown-item" href="#a041">遊戲簡介</a> 
+				  <a class="dropdown-item" href="#a042">實際畫面截圖</a> 
+				  <a class="dropdown-item" href="#a043">更多資訊(連結)&遊戲檔案</a>
+              </div>
+            </li>
+			  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 密室逃脫 </a>
+	          <div class="dropdown-menu" aria-labelledby="navbarDropdown2"> 
+				  <a class="dropdown-item" href="#a051">密室簡介</a> 
+				  <a class="dropdown-item" href="#a052">道具、謎題照片</a> 
+				  <a class="dropdown-item" href="#a053">更多資訊(連結)</a>
+                </div>
+            </li>
+	        
+		    <li class="nav-item active"> <a class="nav-link" href="#"><i class="bi bi-balloon-fill" href="#a07"></i> <span class="sr-only">(current)</span></a> </li>
+          </ul>
+        </div>
+      </nav>
+      <article id="a07"><div class="jumbotron1" style="margin-bottom: 0px">
+        <h1 class="display-4"><br>
+        <strong>作品集</strong></h1>
+        <p class="lead">此為使用Dreamweaver製作的作品彙整網站，當中包含大三整年來課堂上或其他自行創作的作品。<br>———————————————————————————————————————————————————————————————</p>
+<br>
+        <p><ul>
+		  <li>Adobe Photoshop 影像編修、拼貼</li><br>
+		  <li>Adobe Illustrator 電腦繪圖</li><br>
+		  <li>Blender 3D建模（模型皆非完全原創）</li><br>
+		  <li>RPG Maker MZ 遊戲（和一位朋友共同創作）：
+			  <br>　遊戲簡介
+			  <br>　實際畫面截圖
+			  <br>　更多資訊(連結)&遊戲檔案
+		  </li><br>
+		  <li>密室逃脫（系學會共同討論，我為主要負責人）：
+		  <br>　密室簡介
+			  <br>　道具、謎題照片
+			  <br>　更多資訊(連結)</li>
+		  </ul></p>      </div></article>
+		<article id="a01"><div><h1 class="ps"><strong><br>P h o t o s h o p</strong></h1></div></article>
+<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <ol class="carousel-indicators">
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+        </ol>
+	    <div class="carousel-inner" role="listbox">
+	      <div class="carousel-item active" style="background-image: url(images/ps1.jpg)"> 
+	        <div class="carousel-caption">
+	          <h5>PS 影像編修</h5>
+	          <p> 彰化　雲河星空　自攝</p>
+            </div>
+          </div>
+	      <div class="carousel-item" style="background-image: url(images/ps2.png)"> 
+	        <div class="carousel-caption">
+	          <h5>PS 影像編修</h5>
+	          <p>台東　大波池　自攝</p>
+            </div>
+          </div>
+	      <div class="carousel-item" style="background-image:url(images/ps3.png)"> 
+	        <div class="carousel-caption">
+	          <h5>PS 影像編修</h5>
+	          <p>北京　古代建築博物館　梁畹筠攝</p>
+            </div>
+          </div>
+        </div>
+	    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    </div><br>
+	<div class="row no-gutters">
+		<div class="card col-md-2 offset-lg-1" style="padding-top: 20px;border: none;">
+			<div><br><br><br></div>
+			<div class="blue"><br><br><br><br><br><br></div>
+			<div><br><br><br></div>
+			<div class="row no-gutters"><div class="card col-md-1 col-lg-4"><br><br></div></div>
+		</div>
+    <div class="card col-md-4 offset-lg-4" style="padding-top: 20px"> <img class="card-img-top" src="images/ps拼1.jpg" alt="Card image cap">
+	      <div class="card-body">
+	        <h5 class="card-title"><strong>&nbsp;蒲熠星單人海報</strong></h5>
+	        <p class="card-text">&nbsp;&nbsp;＞圖片取自微博蒲熠星超話 2021</p>
+      </div></div>
+        </div>
+	<div class="row no-gutters">
+	  <div class="card col-md-4 offset-lg-1" style="padding-top: 20px"> <img class="card-img-top" src="images/ps拼2.png" alt="Card image cap">
+	      <div class="card-body">
+	        <h5 class="card-title"><strong>歷遊北京</strong></h5>
+	        <p class="card-text">&nbsp;&nbsp;＞圖片為梁畹筠攝於北京 2022</p>
+      </div></div>
+	  <div class="card col-md-1 offset-lg-4" style="padding-top: 20px;border: none;">
+			<div><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+			<div class="red"><br><br><br><br><br></div>
+		</div>
+	
+    </div><br>
+	
+	<article id="a02"><div><h1 class="ps"><strong><br>I l l u s t r a t o r</strong></h1></div></article>
+	<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="background-color: grey">
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+		  <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+      </ol>
+	  <div class="carousel-inner" role="listbox">
+	    <div class="carousel-item active offset-lg-3 col-lg-9"> 
+			<div class="row no-gutters">
+				<div style="padding-top: 25px; padding-bottom: 20px"><img class="d-block mx-auto" src="images/ai四季(春).png" alt="First slide" height="630px" ></div>
+			</div>
+	      <div class="carousel-caption">
+	        <h4 class="col-lg-4 offset-lg-8"><strong>四季 - 1</strong></h4>
+	        <h5 class="col-lg-4 offset-lg-8">Spring</h5>
+          </div>
+        </div>
+		  <div class="carousel-item offset-lg-3 col-lg-9"> 
+			<div class="row no-gutters">
+				<div style="padding-top: 25px; padding-bottom: 20px;"><img class="d-block mx-auto" src="images/ai四季(夏).png" alt="Second slide" height="630px"></div>
+			</div>
+	      <div class="carousel-caption">
+	        <h4 class="col-lg-4 offset-lg-8"><strong>四季 - 2</strong></h4>
+	        <h5 class="col-lg-4 offset-lg-8">Summer</h5>
+          </div>
+        </div>
+		  <div class="carousel-item offset-lg-3 col-lg-9"> 
+			<div class="row no-gutters">
+				<div style="padding-top: 25px; padding-bottom: 20px"><img class="d-block mx-auto" src="images/ai四季(秋).png" alt="Third slide" height="630px"></div>
+			</div>
+	      <div class="carousel-caption">
+	        <h4 class="col-lg-4 offset-lg-8"><strong>四季 - 3</strong></h4>
+	        <h5 class="col-lg-4 offset-lg-8">Autumn</h5>
+          </div>
+        </div>
+	    <div class="carousel-item offset-lg-3 col-lg-9"> 
+			<div class="row no-gutters">
+				<div style="padding-top: 25px; padding-bottom: 20px"><img class="d-block mx-auto" src="images/ai四季(冬).png" alt="Fourth slide" height="630px"></div>
+			</div>
+	      <div class="carousel-caption">
+	        <h4 class="col-lg-4 offset-lg-8"><strong>四季 - 4</strong></h4>
+	        <h5 class="col-lg-4 offset-lg-8">Winter</h5>
+          </div>
+        </div>
+	    
+      </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+<br><br>
+<div class="row no-gutters justify-content-around">
+	<div class="card col-md-3"> <img class="card-img-top" src="images/ai1.png" alt="Card image cap"><br>
+	  <div class="card-body">
+	    <h5 class="card-title"><strong>聖多諾黑</strong></h5>
+	    <p class="card-text">—悠閒午後的日系甜點</p>
+  </div></div>
+		<div class="card col-md-3"> <br><br><img class="card-img-top" src="images/ai5.png" alt="Card image cap"><br><br>
+	  <div class="card-body">
+	    <h5 class="card-title"><strong>埃及豔后</strong></h5>
+	    <p class="card-text">—簍空形象塑造的神祕感</p>
+  </div></div>
+		<div class="card col-md-3"> <img class="card-img-top" src="images/ai4.jpg" alt="Card image cap">
+	  <div class="card-body">
+	    <h5 class="card-title"><strong>獨角獸</strong></h5>
+	    <p class="card-text">—隨興的噴漆街頭塗鴉</p>
+  </div></div>
+    </div><br><br>
+	<div class="row no-gutters justify-content-around">
+		
+		<div class="card col-md-4"> <img class="card-img-top" src="images/ai2.png" alt="Card image cap">
+	  <div class="card-body">
+	    <h5 class="card-title"><strong>刺蝟</strong></h5>
+	    <p class="card-text">—刺繡感手帕</p>
+	     </div></div>
+	  <div class="card col-md-4"> <img class="card-img-top" src="images/ai3.png" alt="Card image cap">
+	  <div class="card-body">
+	    <h5 class="card-title"><strong>英國特色</strong></h5>
+	    <p class="card-text">—簡易風格的手繪感貼紙</p>
+      </div></div>
+    </div><br>
+	
+<article id="a03"><div><h1 class="ps"><strong><br>B l e n d e r</strong></h1></div></article>
+	<div class="blbg"><br>
+	<div class="col-lg-5 offset-lg-1"><img src="images/bl1.png" class="img-fluid" alt="Placeholder image"><h5><strong>　&gt;釀酒小工坊</strong></h5></div>
+	<div class="col-lg-5 offset-lg-6"><img src="images/bl2.png" class="img-fluid" alt="Placeholder image"><h5><strong>中興大學學校意象＜　</strong></h5></div>
+	<div class="col-lg-5 offset-lg-1"><img src="images/bl3.png" class="img-fluid" alt="Placeholder image"><h5>　<strong>&gt;借物少女艾利 客廳（調色）</strong></h5></div><br><br>
+		</div>
+	<div><h1 class="ps"><strong><br>R P G　M a k e r　M Z</strong></h1></div>
+	<article id="a041"><div class="jumbotron2" style="margin-bottom: 0px"><br><br><br>
+		<h3><strong>&nbsp;&nbsp;&nbsp;&nbsp;遊戲簡介</strong></h3>
+		<div class="RPG"><p><h5>&nbsp;&nbsp;&nbsp;「回憶之盒」為一原創溫馨劇情向RPG遊戲，玩家以孫女子晴的視角，在貓咪Neko醬的跟隨下，走訪台中4個具代表性的人文歷史景點（文創資產園區、台中文學館、台中公園、台中火車站），希望能為正抱病臥床的爺爺找到已故的奶奶年輕時埋下的鐵盒。尋找的旅途中，子晴因一些事件而意外的在4個景點分別穿越回各個地點的日治時期，在克服各式小挑戰後才能成功回到現代，而最終回到爺爺家和其分享尋找過程時，發現這些地點都蘊含著爺爺奶奶年輕時滿滿的回憶。</h5></p>
+		<p><h5>&nbsp;&nbsp;&nbsp; 遊戲整體以劇情為重點，玩家跟隨孫女遊歷4個台中景點，在探索時可以了解到該地的歷史背景及現況，而其中穿插的小任務也為各景點增添記憶及趣味性，末以爺爺的回憶動畫做結，帶出爺爺奶奶甜蜜的愛情故事。遊戲時常約40-60分鐘。</h5></p><br><br><br></div>
+	</div></article>
+<article id="a042"><div><br><br><br><br><br>
+<div class="blueword"><h3><strong>&nbsp;&nbsp;&nbsp;&nbsp;實際畫面截圖(片段)</strong></h3></div><br>
+<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="col-lg-4 offset-lg-2"  style="padding: 10px"><img src="images/1.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/2.png" class="rounded img-fluid" alt="Placeholder image"></div></div>
+<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/3.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/4.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/5.png" class="rounded img-fluid" alt="Placeholder image"></div></div>
+<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="col-lg-4 offset-lg-2"  style="padding: 10px"><img src="images/6.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/7.png" class="rounded img-fluid" alt="Placeholder image"></div></div>
+<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/8.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/9.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/10.png" class="rounded img-fluid" alt="Placeholder image"></div></div>
+<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="col-lg-4 offset-lg-2"  style="padding: 10px"><img src="images/11.png" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/12.png" class="rounded img-fluid" alt="Placeholder image"></div></div><br><br><br></div></article>
+
+	<article id="a043"><div class="jumbotron2" style="margin-bottom: 0px"><br><br><br>
+        <h3><strong>&nbsp;&nbsp;&nbsp;&nbsp;更多資訊(連結)&遊戲檔案</strong></h3>
+        <p class="lead">&nbsp;&nbsp;———————————————————————————————————————————————————————————————</p>
+<br>
+      <p><ul>
+	    <li><h5>&nbsp;遊戲企劃書</h5></li><br>
+	    <li><h5>&nbsp;遊戲故事劇情</h5></li><br>
+		<li><h5>&nbsp;遊戲檔案：&nbsp;
+		  <button type="button" class="btn btn-primary">APK 執行檔</button>
+		</h5>
+		</li>
+	    </ul></p><br><br><br>      </div></article>
+
+	<div><h1 class="ps"><strong><br>密 室 逃 脫</strong></h1></div>
+<article id="a051"><div class="eswww"><br><br><br><h3>&nbsp;&nbsp;&nbsp;<strong>&nbsp;密室簡介</strong></h3>
+	<div class="esword row no-gutters"><p class="col-lg-5 offset-lg-0"><strong><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;密室「重諜」以第二次世界大戰時，做為幫助同盟國在諾曼地登陸行動取得優勢，進而翻轉整個戰局情勢的間諜胡安·普約爾·加西亞為主角，其在二戰期間出任表面效忠德國（納粹）、實則為英國效勞的雙面間諜。雖然他因後期種種成功的假情報捏造，使德軍受到蒙蔽，同盟國終能取勝，但在德國軍方眼中，在其詐死引退前仍不知他雙面間諜的身份，胡安甚至獲頒戰時代表著極高榮譽的鐵十字勳章。<br><br><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;密室以成功寄出7封情報與納粹為目標，當中混有真假參半的內容，多為胡安於史實紀錄中切實傳送的情報，其餘資訊皆為當時可考歷史（除部分數據為謎題需要）。主題的發想是希望玩家在解謎的過程中，除了認識胡安這名優秀的間諜外，亦能了解二戰時英國的大環境背景。</strong></p>
+	  <div id="carouselExampleIndicators3" class="carousel slide col-lg-6" data-ride="carousel" style="background-color: grey">
+	    <ol class="carousel-indicators">
+	      <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+	      <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+	      <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators3" data-slide-to="3"></li>
+        </ol>
+	    <div class="carousel-inner" role="listbox">
+	      <div class="carousel-item active col-lg-12" style="padding-top: 30px"> <img class="d-block mx-auto" src="images/30.jpg" alt="First slide" height="600px">
+	        <div class="carousel-caption"></div>
+          </div>
+	      <div class="carousel-item" style="padding-top: 50px"> <img class="d-block mx-auto" src="images/31.jpg" alt="Second slide" height="550px">
+	        <div class="carousel-caption"></div>
+          </div>
+	      <div class="carousel-item" style="padding-top: 50px"> <img class="d-block mx-auto" src="images/32.jpg" alt="Third slide" height="550">
+	        <div class="carousel-caption"></div>
+          </div>
+			<div class="carousel-item" style="padding-top: 50px"> <img class="d-block mx-auto" src="images/33.jpg" alt="Fourth slide" height="550">
+	        <div class="carousel-caption"></div>
+          </div>
+        </div>
+	    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    </div>
+</div></article>
+  
+<article id="a052"><br><br><br><div class="eswww2"><br><br>
+	<h3><strong>道具、謎題照片</strong></h3>
+	<p>（主要擺放我有參與的道具製作）</p>
+	<br><br>
+	<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="offset-lg-1 col-lg-5"  style="padding: 10px"><img src="images/28.jpg" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-5 offset-lg-0"  style="padding: 10px"><img src="images/23.jpg" class="rounded img-fluid" alt="Placeholder image"></div></div>
+	<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="offset-lg-1 col-lg-5"  style="padding: 10px"><img src="images/22.jpg" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-5 offset-lg-0"  style="padding: 10px"><img src="images/25.jpg" class="rounded img-fluid" alt="Placeholder image"></div></div>
+	<div class="row no-gutters justify-content" style="padding: 10px">
+	<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/26.jpg" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/27.jpg" class="rounded img-fluid" alt="Placeholder image"></div>
+<div class="col-lg-4 offset-lg-0"  style="padding: 10px"><img src="images/24.jpg" class="rounded img-fluid" alt="Placeholder image"></div></div><br><br><br><br></div></article>
+
+<article id="a053"><div class="jumbotron2" style="margin-bottom: 0px"><br><br><br>
+        <h3><strong>&nbsp;&nbsp;&nbsp;&nbsp;更多資訊(連結)</strong></h3>
+        <p class="lead">&nbsp;&nbsp;———————————————————————————————————————————————————————————————</p>
+<br>
+      <p><ul>
+	    <li><h5>&nbsp;密室逃脫企劃書</h5></li><br>
+	    <li><h5>&nbsp;密室逃脫前後解說</h5></li><br>
+		<li><h5>&nbsp;密室日記、信件</h5></li><br>
+		<li><h5>&nbsp;各題詳解+表單內容</h5></li><br>
+	    </ul></p><br><br><br>      </div></article>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+
+<footer><article id="a06">林 郁 容　　　Mail：curiosity56250@gmail.com　　　Phone：0912-043-014</article></footer>
+</html>
